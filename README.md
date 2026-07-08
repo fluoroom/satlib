@@ -211,13 +211,3 @@ console.log(data.satName, data.elevationDeg);
 ```
 
 ---
-
-## 12. Reference Implementation
-
-The reference server implementation is **Look4Sat** (Android, this fork):
-
-- Class: `Satlib` (`core/data/framework/Satlib.kt`)
-- Interface: `ISatlib` (`core/domain/repository/ISatlib.kt`)
-- Data model: `SatApiData` (`core/domain/model/SatApiData.kt`)
-
-The server starts automatically with the application and runs on port 4534. Data is pushed from the radar screen's 1-second tracking loop while a satellite pass is active.
