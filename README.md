@@ -90,8 +90,8 @@ The response body is a UTF-8 encoded JSON object. Field order is fixed as shown 
   "ctcssTxToneHz": 67.0,
   "ctcsRxToneHz": null,
   "mode": "FM",
-  "aosTime": 1752012345000,
-  "losTime": 1752012945000,
+  "aosTime": 835255080000,
+  "losTime": 835257680000,
   "timestamp": 1752012567000
 }
 ```
